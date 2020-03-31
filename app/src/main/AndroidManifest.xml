@@ -12,7 +12,7 @@
         <activity android:name=".Cadastro_Activity">
 
         </activity>
-        <activity android:name=".Login_Activity" />
+        <activity android:name=".Login_Activity" android:theme="@style/temaSemBarra" />
         <activity android:name=".Splash_Activity" android:theme="@style/temaSemBarra" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
